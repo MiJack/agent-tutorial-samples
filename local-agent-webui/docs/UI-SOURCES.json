@@ -1,0 +1,205 @@
+{
+  "template": "https://github.com/shadcn-ui/chatbot-template",
+  "commit": "4106041b1bc9bab44e81ffd2764aa2b6f100e2b0",
+  "pattern": "https://ui.shadcn.com/docs/ai-elements/base/model-selector",
+  "files": [
+    {
+      "path": "src/app/globals.css",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/app/globals.css",
+      "sha256": "07c0aa25f4335cc4793b4df531184043765ef084337423c29215f31949989a47",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/app/typeset.css",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/app/typeset.css",
+      "sha256": "1365c1415182cd4b40d63fb809d08d70fbb8a4bbbef3921313cda9e445a83f27",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/questionnaire.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/questionnaire.tsx",
+      "sha256": "18f2dd50218ead9a2538bb50a48e9cdfc77b4f73818791397baebc6960ff9afc",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/input-group.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/input-group.tsx",
+      "sha256": "ab3d221ffe76c2545e24a3351bd779ecc5004c481a4c9f0b9df6be7b5d05994d",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/bubble.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/bubble.tsx",
+      "sha256": "e121ea6bd0fe18e9b795698f3d26b0319927d93f4ff1222a5be8128714f5bcb0",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/empty.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/empty.tsx",
+      "sha256": "ed193001972f23a791b99475bf672ac9e6802da8f3dd5dd3798481b6ce3f216d",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/tooltip.tsx",
+      "sha256": "d73780087f41454a5f06dbc8b2716c4d0ff3cfacf18f9e84771a998cd2cd1696",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/alert.tsx",
+      "sha256": "2e936ef95361e01bc402a348b6ff74ec0d8ad288100b59b78c82d27ca25c0dc6",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/trace.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/trace.tsx",
+      "sha256": "c1c29b9f4b65af54c3668fc942348a15c474a1942bac24edb7a60b7ff377e135",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/code-block.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/code-block.tsx",
+      "sha256": "784325b40eb791d85ab3f61f539adda060c0dab9d3041d5bc2b3ef9a4813b51f",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/message.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/message.tsx",
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/button.tsx",
+      "sha256": "09e375eaa6d28e2248c49d1dbaf650643522a72d9ed358ecee4d1309d1e6ffe2",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/collapsible.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/collapsible.tsx",
+      "sha256": "ead4349ff7b01d696ef89294a81d18ee1d3f732321398896462c834ab9b9e065",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/select.tsx",
+      "sha256": "201fe2a0491e6e869524bf4c6338560ce4715bb3c7e82f083b3f63fad152a274",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/textarea.tsx",
+      "sha256": "316a8748ed0d3e96f62d415df5982adab15fe87675882450cdfed002261c9e22",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/input.tsx",
+      "sha256": "11d757d5e664a66aa640fc5aae3db211cc13177bf88c7a3b2cb5314a8dd2004c",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/message-scroller.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/ui/message-scroller.tsx",
+      "sha256": "c6450e46ab59204a68a9a6c128d8ed65b6807dbebc747cbaabe4a7e048503324",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/theme-provider.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/theme-provider.tsx",
+      "sha256": "86d9517da24b16ceb107fb922582baba5e4b6ee04f1b6f751dfe6c9fe023d854",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/markdown-code.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/markdown-code.tsx",
+      "sha256": "28ddfb00c15d72972a4ffff4fdae75e6d62a4dd0ee789a09d29b2a8278a2671b",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/message-actions.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/message-actions.tsx",
+      "sha256": "8b644ca18529665d0696478e775bd0c143c392a62fb752087c3598b023b30d59",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/status-icon.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/status-icon.tsx",
+      "sha256": "ed70baca11f138a213daca5727cdeb7c2d73b34c451738d7bfeeb30d1703339f",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/parts/reasoning-part.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/parts/reasoning-part.tsx",
+      "sha256": "672a3d810b09c1c0cec3db1cb6a7cf668e30717b3b879d2934f3466d320f014b",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/parts/text-part.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/components/parts/text-part.tsx",
+      "sha256": "b51a261e0c46fa8b1f0607c9f3e7f8cfce37ab98a37c10049c23409fecb6b3ec",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/lib/highlighter.tsx",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/lib/highlighter.tsx",
+      "sha256": "ab3cfd4e09735bf90735e851dfe5bc4f17151f3f36b9d4d55e9cd809b1aa2b9c",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/lib/utils.ts",
+      "sha256": "538b51699105d193d9a91ca60f99de5692538280b9cb767205801d661d1317cb",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/hooks/use-highlighted-code.ts",
+      "source": "https://github.com/shadcn-ui/chatbot-template/blob/4106041b1bc9bab44e81ffd2764aa2b6f100e2b0/hooks/use-highlighted-code.ts",
+      "sha256": "52c87d08f21b66b45ae7b724c9e1bd20694dd86ff75ee03e9ff35aa7af5461e0",
+      "mode": "verbatim"
+    },
+    {
+      "path": "src/components/ui/command.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/command.json",
+      "sha256": "7eed9b9e86eaba002039c9bd88fa7b0c6f7afa9b6d2ce4096549ad998ec6e603",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/dialog.json",
+      "sha256": "bf0eae813884083597f794c13662050e81b57e674a07163147149102f5def5c6",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/dropdown-menu.json",
+      "sha256": "44fcf91c792b73f551f252a755087e2070db9be20c9edd14eea2c0a6f12f312d",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/field.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/field.json",
+      "sha256": "b1d0fd7b85ec95fb9173aa0a6dc84863f217b20c0387b53cb5d2f0f3e569789b",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/label.json",
+      "sha256": "b3b7b21d2877838fc73713df48a47248392de04a3b3fafa8961369f33ab14530",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/separator.json",
+      "sha256": "9a80ff8c110e0c55489509f4f82ebcc929c0174b59544047147b7134f86a54e7",
+      "mode": "shadcn-cli-4.22.1"
+    },
+    {
+      "path": "src/components/ui/spinner.tsx",
+      "source": "https://ui.shadcn.com/r/styles/base-rhea/spinner.json",
+      "sha256": "6916679a40ad1c7624520de5eaa7b337635e81f9a76413201267f8619844646f",
+      "mode": "shadcn-cli-4.22.1"
+    }
+  ]
+}

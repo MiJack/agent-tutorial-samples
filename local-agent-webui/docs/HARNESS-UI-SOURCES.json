@@ -1,0 +1,12 @@
+[
+  {
+    "path": "src/components/ui/tabs.tsx",
+    "source": "https://ui.shadcn.com/r/styles/base-rhea/tabs.json",
+    "sha256": "6aa9f884a33893f4c1e9b9a429cb88021ede454053c2501f14d55980a2fd371a"
+  },
+  {
+    "path": "src/components/ui/item.tsx",
+    "source": "https://ui.shadcn.com/r/styles/base-rhea/item.json",
+    "sha256": "1539cbc106ff0c9af74059aab4d907c90111844d8a9cb7599736df620b974eeb"
+  }
+]
