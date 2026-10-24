@@ -6,7 +6,7 @@
 
 | 案例 | 内容 | 入口 |
 | --- | --- | --- |
-| 本地 Agent WebUI | 用官方 AI Elements 组件和 AI SDK Pi Harness 搭建聊天工作台，支持工具审批、Skill、提示词和原生会话恢复 | [运行说明](local-agent-webui/README.md) · [图文教程](local-agent-webui/docs/tutorial/本地-Agent-WebUI-搭建教程.md) |
+| 本地 Agent WebUI | 用官方 AI Elements 组件和 AI SDK Pi Harness 搭建聊天工作台，支持工具审批、Skill、提示词和原生会话恢复 | [运行说明](local-agent-webui/README.md) · [教程目录](local-agent-webui/docs/README.md) |
 
 ## 快速开始
 
@@ -28,7 +28,7 @@ agent-tutorial-samples/
     ├── src/                 WebUI 与 Pi Harness 接入
     ├── tests/               自动化测试
     ├── scripts/             官方组件来源校验
-    ├── docs/tutorial/       教程、运行截图与配套包
+    ├── docs/                教程、运行截图与组件参考资料
     ├── third_party/         上游组件授权
     └── package-lock.json    可复现的依赖安装
 ```

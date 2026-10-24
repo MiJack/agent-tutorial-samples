@@ -2,7 +2,7 @@
 
 通过官方 AI SDK Harness 接入本机 Pi Agent 的聊天工作台。主界面复用 [AI Elements Chatbot 示例](https://elements.ai-sdk.dev/examples/chatbot) 的原组件、布局和默认主题。
 
-[阅读完整图文教程](docs/tutorial/本地-Agent-WebUI-搭建教程.md)
+[教程目录](docs/README.md) · [阅读完整图文教程](docs/tutorial/本地-Agent-WebUI-搭建教程.md)
 
 ![实际运行界面](docs/tutorial/images/01-chat-overview.png)
 
@@ -102,4 +102,4 @@ npm run build
 
 测试用隔离目录与本地模拟模型服务执行真实官方 Harness 链路，不消耗个人供应商配额。教学截图来自独立演示实例的实际供应商调用与本机工具执行；它们不替代所有供应商、移动端或 MCP 的完整验收。
 
-来源清单及原始快照位于 `docs/`，授权文件位于 `third_party/`。`docs/RESEARCH.md`、`docs/VALIDATION.md` 保留开发过程的阶段记录；当前功能与启动方式以本页和图文教程为准。
+完整操作步骤见 [教程目录](docs/README.md)，组件清单、原始快照与校验方式见 [组件来源说明](docs/references/components.md)。上游授权位于 `third_party/`。

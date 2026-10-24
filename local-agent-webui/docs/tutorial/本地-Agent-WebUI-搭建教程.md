@@ -119,14 +119,16 @@ pi
 
 ### 步骤 2：安装网页依赖并配置工作目录
 
-下载与本文放在一起的 [完整源码包](ai-web-chat-tutorial-source.zip)，在你选择的目录执行：
+从 [Agent 教程案例仓库](https://github.com/MiJack/agent-tutorial-samples) 获取代码，进入本教程对应的案例目录：
 
 ```bash
-unzip ai-web-chat-tutorial-source.zip
-cd ai-web-chat
+git clone https://github.com/MiJack/agent-tutorial-samples.git
+cd agent-tutorial-samples/local-agent-webui
 npm ci
 mkdir -p demo-workspace
 ```
+
+如果你已经下载或克隆了仓库，直接进入 `local-agent-webui` 后执行后两条命令。下文中的“项目根目录”均指这个案例目录。
 
 为了让初次练习只针对演示目录，在项目根目录创建 `.env.local`：
 
@@ -156,7 +158,7 @@ npm run dev
 
 此时先确认 `http://127.0.0.1:3000` 能打开，不出现依赖或路由错误。模型认证、界面结构与 Agent 行为将在后续阶段分别检查。
 
-配套包包含全部实现。下面按搭建顺序讲解各模块：运行时可随时对照完整文件；独立重做时，可用每节提示词让开发 AI 实现该阶段。代码块标注为“节选”的，不要单独覆盖为整个文件。
+案例目录包含全部实现。下面按搭建顺序讲解各模块：运行时可随时对照完整文件；独立重做时，可用每节提示词让开发 AI 实现该阶段。代码块标注为“节选”的，不要单独覆盖为整个文件。
 
 ### 步骤 3：准备后续练习要读取的文件
 
@@ -215,7 +217,7 @@ src/
     └── types.ts                  前后端公开类型
 ```
 
-阅读页面时，沿 `chat-app.tsx → chat.tsx` 这条实际调用链进入。`scripts`、`docs/upstream` 和 `third_party` 分别保存校验脚本、组件快照与授权，后续来源检查会用到它们。
+阅读页面时，沿 `chat-app.tsx → chat.tsx` 这条实际调用链进入。`scripts`、`docs/references/ui/upstream` 和 `third_party` 分别保存校验脚本、组件快照与授权，后续来源检查会用到它们。
 
 ### 可交给 AI 的提示词
 
@@ -250,7 +252,7 @@ src/
 
 配套代码保留两个 `ui` 目录：指定示例依赖 Radix 风格的组件接口，而部分管理控件来自另一个官方 Base UI 版本。两者都有“Select”“Dialog”，属性却不完全相同。隔离依赖，可以避免把 `asChild` 和 `render` 等不同接口混在一起。
 
-初次复现建议直接使用配套包的组件和快照。未来若从官网重新安装组件，先核对新版本 API、依赖与视觉，再更新业务适配；不要一边重装 `latest`，一边承诺外观与本文完全一致。
+初次复现建议直接使用案例目录中的组件和快照。未来若从官网重新安装组件，先核对新版本 API、依赖与视觉，再更新业务适配；不要一边重装 `latest`，一边承诺外观与本文完全一致。
 
 ### 步骤 2：组合页面骨架并加载主题
 
@@ -334,7 +336,7 @@ export default function RootLayout({
 }
 ```
 
-CSS 同样复用原主题。下面是 `globals.css` 的开头；剩余的 `:root`、`.dark` 和主题变量使用配套文件原文，不另配颜色：
+CSS 同样复用原主题。下面是 `globals.css` 的开头；剩余的 `:root`、`.dark` 和主题变量使用案例文件原文，不另配颜色：
 
 ```css
 @import "tailwindcss";
@@ -1336,8 +1338,8 @@ npm start
 
 ---
 
-本文配套文件：
+继续阅读：
 
-- [完整源码包](ai-web-chat-tutorial-source.zip)：可本地安装和运行。
-- [配套说明与校验记录](交付说明.md)：包内容、复现方式与验证边界。
-- [五个备选标题](备选标题.md)。
+- [教程目录](../README.md)：按搭建顺序查找阶段和操作目标。
+- [运行说明](../../README.md)：环境变量、启动命令与功能边界。
+- [组件来源与校验](../references/components.md)：官方组件对应关系、原始快照和校验方式。

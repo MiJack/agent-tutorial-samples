@@ -3,7 +3,7 @@ node_modules
 .data
 package-lock.json
 
-# Preserve official source byte for byte (docs/UI-SOURCES.json).
+# Preserve official source byte for byte (docs/references/ui/UI-SOURCES.json).
 src/app/globals.css
 src/app/typeset.css
 src/components/ui/questionnaire.tsx
@@ -39,7 +39,7 @@ src/components/ui/separator.tsx
 src/components/ui/spinner.tsx
 
 src/components/ai-elements/
-docs/upstream/
+docs/references/ui/upstream/
 
 src/components/ui/item.tsx
 src/components/ui/tabs.tsx

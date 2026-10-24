@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 const root = new URL('../', import.meta.url);
 const read = (path) => readFile(new URL(path, root), 'utf8');
 const digest = (text) => createHash('sha256').update(text).digest('hex');
-const baseline = JSON.parse(await read('docs/UI-SOURCES.json'));
+const baseline = JSON.parse(await read('docs/references/ui/UI-SOURCES.json'));
 const scanning =
   [
     'streamdown',
@@ -30,7 +30,9 @@ for (const file of baseline.files) {
     `Official baseline was modified: ${file.path}`,
   );
 }
-const manifest = JSON.parse(await read('docs/AI-ELEMENTS-SOURCES.json'));
+const manifest = JSON.parse(
+  await read('docs/references/ui/AI-ELEMENTS-SOURCES.json'),
+);
 for (const file of manifest.files) {
   const original = JSON.parse(await read(file.snapshot)).files.find(
     (entry) => digest(entry.content) === file.originalSha256,
@@ -47,7 +49,9 @@ for (const file of manifest.files) {
     `Only import paths may change: ${file.path}`,
   );
 }
-const extra = JSON.parse(await read('docs/HARNESS-UI-SOURCES.json'));
+const extra = JSON.parse(
+  await read('docs/references/ui/HARNESS-UI-SOURCES.json'),
+);
 for (const file of extra)
   assert.equal(
     digest(await read(file.path)),
